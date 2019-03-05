@@ -1,0 +1,602 @@
+html body {
+  margin: 0;
+  padding: 0;
+  font-family: questrial, ars-maquette-web, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.blackground {
+  height: 4380px;
+  width: 100%;
+  background-image: url("../img/main/black.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.kop {
+  text-align: center;
+  font-size: 36px;
+  /* font-weight: bold; */
+  /* text-shadow: 4px 4px 4px rgb(0, 0, 0); */
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 4%;
+  font-size: 32px;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 26px;
+  color: whitesmoke;
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+}
+
+#navbar {
+  background-image: url("../img/main/black.jpg");
+  background-repeat: no-repeat;
+  max-height: 200px;
+  display: block;
+  transition: top 1s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+  font-size: 22px;
+  /*  margin-right: 100px;*/
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  font-weight: 600;
+}
+
+.ik2 {
+  height: 820px;
+  width: 100%;
+  background-color: rgba(0, 32, 73, 0.781);
+  float: left;
+}
+
+.ik {
+  height: 820px;
+  width: 100%;
+  background-image: url("../img/main/stoel2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  float: left;
+}
+
+.container-text {
+  height: 700px;
+  width: 900px;
+  margin-left: 26.5%;
+  margin-top: 4%;
+  /* background-color: rgb(137, 137, 180); */
+}
+
+.ik-text {
+  text-align: center;
+  font-size: 22px;
+  height: 160px;
+  margin-right: 50px;
+  width: 800px;
+  color: #ddd;
+  /* background-color: rgb(137, 137, 180); */
+  float: right;
+}
+
+.linkedIn {
+  font-size: 34px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.marten-foto {
+  max-height: 450px;
+  margin-left: 35%;
+  border-radius: 20px 20px 2px 2px;
+  opacity: 0.93;
+}
+
+.about {
+  height: 820px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.637);
+  float: left;
+}
+
+.project {
+  height: 860px;
+  width: 100%;
+  /* background-color: rgba(237, 241, 255, 0.737); */
+  background-color: rgba(141, 161, 248, 0.521);
+  float: left;
+}
+
+.news {
+  height: 1020px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.637);
+  float: left;
+}
+
+.form {
+  height: 800px;
+  width: 100%;
+  background-color: rgba(141, 161, 248, 0.521);
+  float: left;
+  text-align: left;
+}
+
+.container-skill {
+  height: 480px;
+  width: 28%;
+  /* background-color: rgba(100, 100, 100, 0.452); */
+  float: left;
+  margin-top: 10%;
+  margin-bottom: 60px;
+  margin-left: 65px;
+  /* border-right:4px; */
+  border-color: white;
+}
+
+#double-border {
+  border-right: solid rgb(255, 255, 255);
+  border-width: 0px 3px 0px;
+  /* box-shadow: 0 0 0 5px black, 0 0 0 7px red; */
+}
+
+#double-border2 {
+  border-right: solid rgb(0, 0, 0);
+  border-width: 0px 3px 0px;
+  /* box-shadow: 0 0 0 5px black, 0 0 0 7px red; */
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+
+.lijst-hobby {
+  font-size: 22px;
+  margin-left: 3px;
+}
+
+.project1 {
+  height: 500px;
+  width: 46%;
+  float: left;
+  margin: 16px;
+  margin-top: 4cm;
+}
+
+/*  .contact {
+    height: 75px;
+    width: 100%;
+  }*/
+.phpform {
+  text-align: left;
+  font-size: 22px;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.phpform2 {
+  font-size: 20px;
+}
+
+.footer {
+  height: 370px;
+  width: 100%;
+  background-image: url("../img/main/black.jpg");
+  background-repeat: no-repeat;
+  /*    background-attachment: fixed; */
+  float: left;
+}
+
+/*GALLERY*/
+
+.gallery-links h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.gallery-container a {
+  width: 230px;
+  margin: 20px 10px 0;
+  transition: transform .2s; /* Animation */
+  
+}
+
+.gallery-container a:hover {
+  transform: scale(1.14); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  
+}
+
+.gallery-container a div {
+  width: 100%;
+  height: 235px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-container a h3 {
+  font-family: Catamaran;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  padding-top: 16px;
+  line-height: 26px;
+}
+
+.gallery-container a p {
+  font-family: Catamaran;
+  font-size: 16px;
+  font-weight: 400;
+  color: #111;
+  padding-top: 4px;
+  line-height: 20px;
+}
+
+.gallery-upload {
+  width: 100%;
+  /* padding: 20px 0;
+  margin-top: 20px; */
+  /* background-color: #F2F2F2; */
+}
+
+.gallery-upload h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.gallery-upload form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.gallery-upload form input {
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  padding: 0 15px;
+  border-radius: 100px;
+  box-shadow: none;
+  border: 1px solid #ccc;
+}
+
+.gallery-upload-file-input {
+  padding-top: 8px !important;
+  background-color: #fefefe;
+}
+
+.gallery-upload form button {
+  width: 120px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 100px;
+  box-shadow: none;
+  border: none;
+  background-color: #4EADFF;
+  color: #fff;
+  font-weight: 700;
+}
+
+input:focus {
+    outline:none !important;
+}
+
+
+
+.footer-icons {
+  height: 300px;
+  width: 300px;
+  float: left;
+  margin-left: 3%;
+}
+
+.copy {
+  height: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 330px;
+  font-size: 26px;
+  color: whitesmoke;
+}
+
+.leuke-sites {
+  height: 300px;
+  width: 20%;
+  float: right;
+}
+
+.textLink {
+  color: yellow;
+  font-size: 24x;
+  margin-top: 2px;
+  text-align: center;
+  transition: transform .2s;
+  /* Animation */
+}
+
+.textLink:hover {
+  background-color: rgb(63, 2, 2);
+}
+
+#linked-in {
+  font-size: 80px;
+  color: rgb(0, 0, 146)
+}
+
+#facebook {
+  font-size: 80px;
+  color: rgb(29, 29, 250);
+  margin-left: 12px;
+}
+
+#git-hub {
+  font-size: 85px;
+  color: rgb(158, 0, 0);
+  margin-left: 12px;
+}
+
+#myBtn {
+  float: left;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 117, 4);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  html body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+    top: 0;
+  }
+
+  #navbar {
+    max-height: 100%;
+    float: left;
+    max-width: 100%;
+  }
+
+  #navbar a {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .column {
+    width: 220px;
+    /* display: block; */
+    /* height: auto; */
+    height: 100px;
+    margin-top: 220px;
+  }
+
+  .upload {
+    height: 10%;
+    width: 10%;
+    margin-left: 2%;
+    font-size: 18px;
+    margin-top: 1600px;
+  }
+
+  .blackground {
+    height: 6462px;
+    background-image: url("../img/main/black.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .header-icons{
+    margin-left: 8%;
+  }
+
+  #double-border2 {
+    border-width: 0px 0px 0px;
+  }
+
+  .ik2 {
+    max-width: 100%;
+    /* margin-top: 110px;  */
+  }
+
+  .ik-text {
+    max-width: 100%;
+    float: top;
+    margin-right: 50%;
+    margin-top: 1px;
+  }
+
+  .kop {
+    font-size: 4.3vw;
+    margin-left: 8%;
+  }
+
+  .linkedIn {
+    font-size: 26px;
+    margin-left: 9px;
+    text-decoration: none;
+  }
+
+  p {
+    font-size: 4vw;
+  }
+
+  .marten-foto {
+    height: 450px;
+    width: 275px;
+    margin-left: -60px;
+    border-radius: 20px 20px 2px 2px;
+    opacity: 0.93;
+  }
+
+  .about {
+    height: 1660px;
+    width: 100%;
+  }
+
+  .container-skill {
+    width: 100%;
+    float: left;
+    margin-left: 1px;
+    margin-top: 1px;
+  }
+
+
+  .project {
+    width: 100%;
+    height: 1140px;
+    float: left;
+    margin-left: 1px;
+    margin-top: 1px;
+  }
+
+  .form {
+    height: 785px;
+    width: 100%;
+    float: left;
+  }
+
+  .phpform {
+    text-align: top;
+    font-size: 22px;
+    margin-top: 15%;
+    margin-left: 4%;
+  }
+
+  .phpform2 {
+    font-size: 4vw;
+  }
+
+  .news {
+    height: 2020px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.637);
+  }
+
+  .project1 {
+    border-right: none;
+    width: 300px;
+    float: left;
+    margin-left: 1px;
+    margin-top: 1px;
+  }
+
+  h1 {
+    font-size: 10vw;
+  }
+
+  .footer {
+    height: 690px;
+    width: 100%;
+    float: left;
+  }
+
+  .footer-icons {
+    height: 30%;
+    width: 20%;
+    float: left;
+    margin-left: 1%;
+  }
+
+  .copy {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 638px;
+    /* font-size: 4vw; */
+  }
+
+  .leuke-sites {
+    text-align: right;
+    width: 60%;
+    margin-right: 10px;
+    float: right;
+  }
+
+  .textLink {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+
+  #linked-in {
+    margin-left: 1px;
+  }
+
+  #facebook {
+    margin-left: 1px;
+  }
+
+  #git-hub {
+    margin-left: 1px;
+  }
+}
